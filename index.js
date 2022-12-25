@@ -24,8 +24,11 @@ client.on('message', async msg => {
     const text = msg.body.toLowerCase() || '';
 
     //check status
-    if (text === '!ping') {
+    if (text === '!menu') {
         msg.reply('pong');
+        msg.reply('#edit_bg/');
+        msg.reply('#ask/');
+        msg.reply('jika Error Hubungi wa owner wa.me/6281386945391');
     }
 
     // edit_bg/bg_color
